@@ -1,0 +1,201 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f7f3">
+  <meta name="description" content="Una felicitación especial por tus 28 años. Recuerdos, familia y mucho cariño.">
+  <title>28 años · Un día para celebrar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <header class="shell topbar">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio">
+      <span class="brand-mark">✳</span>
+      Un día especial
+    </a>
+    <span class="navhint">HECHO CON CARIÑO ♡</span>
+  </header>
+
+  <main>
+    <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+      <span class="spark s1">✳</span>
+      <span class="spark s2">✧</span>
+      <span class="spark s3">✶</span>
+      <span class="spark s4">✳</span>
+
+      <div>
+        <div class="eyebrow">Hoy celebramos tu vida</div>
+        <h1 id="hero-title">Felices <span>28</span><br>años Gordo.</h1>
+
+        <p class="subline">
+          Por todo lo que has vivido, por quien eres y por todos
+          los momentos bonitos que todavía nos esperan.
+        </p>
+
+        <div class="age-pill">
+          <span>1998</span>
+          <i></i>
+          <span>2026</span>
+          <i></i>
+          <span>28 años de historias</span>
+        </div>
+
+        <br>
+
+        <a class="primary" href="#mensaje">
+          Tengo algo que decirte
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+
+      <div class="scroll-cue">Sigue bajando</div>
+    </section>
+
+    <section class="statement" id="mensaje">
+      <div class="shell statement-inner">
+        <div class="fadein">
+          <span class="section-no">01 / De corazón</span>
+
+          <h2 class="section-title">
+            Hay personas que hacen la vida más bonita.
+          </h2>
+
+          <p class="copy">
+            Y tú eres una de ellas. Hoy no es solo una fecha
+            en el calendario: es una oportunidad para recordarte
+            lo mucho que significas para quienes tenemos la suerte
+            de compartir la vida contigo.
+          </p>
+        </div>
+
+        <div class="personal-note fadein">
+          <div class="quote-rule"></div>
+
+          <p>
+            Hermano, ojalá nunca te falten motivos para sonreír,
+            sueños por cumplir, salud para disfrutarlos y personas
+            que te quieran de verdad. Gracias por las risas, los
+            recuerdos y por todos esos pequeños momentos que,
+            sin darnos cuenta, se vuelven inolvidables.
+          </p>
+
+          <p>
+            Que estos 28 años sean el comienzo de una etapa
+            increíble. Te mereces todo lo bueno que está por llegar.
+          </p>
+
+          <div class="signature">
+            Con mucho cariño, tu hermano ♡
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories shell" id="recuerdos">
+      <div class="section-header fadein">
+        <div>
+          <span class="section-no">02 / Nuestra historia</span>
+          <h2 class="section-title">Momentos que<br>se quedan.</h2>
+        </div>
+
+        <p class="section-intro">
+          Una pequeña colección de recuerdos familiares, porque
+          los mejores regalos a veces son los momentos que
+          hemos compartido.
+        </p>
+      </div>
+
+      <div class="carousel fadein"
+           aria-label="Galería de recuerdos familiares"
+           aria-roledescription="carrusel">
+
+        <article class="memory-card" id="memoryCard" aria-live="polite">
+
+          <div class="memory-visual" id="memoryVisual" data-tone="1">
+            <img id="memoryImage" alt="Recuerdo familiar">
+
+            <div class="placeholder">
+              <div class="glyph">♡</div>
+              <strong>Un recuerdo especial</strong>
+              <small>Nuestra historia en imágenes</small>
+            </div>
+
+            <div class="memory-label" id="memoryLabel">
+              Recuerdo 01
+            </div>
+          </div>
+
+          <div class="memory-info">
+            <div class="memory-counter" id="memoryCounter">
+              01 / 05
+            </div>
+
+            <h3 id="memoryTitle">
+              Nuestros primeros recuerdos.
+            </h3>
+
+            <p id="memoryText">
+              Hay fotografías que guardan mucho más que una imagen:
+              guardan risas, abrazos y una historia que siempre
+              llevaremos con nosotros.
+            </p>
+
+            <div class="memory-bottom">
+              <span>Un momento para recordar ♡</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="controls">
+          <div class="dots" id="dots"
+               aria-label="Seleccionar recuerdo"></div>
+
+          <div class="arrows">
+            <button type="button" class="circle-btn"
+                    id="prev" aria-label="Recuerdo anterior">←</button>
+
+            <button type="button" class="circle-btn"
+                    id="next" aria-label="Siguiente recuerdo">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-wrap shell fadein">
+      <div class="letter">
+        <div class="eyebrow">03 / Por muchos más</div>
+
+        <h2>Lo mejor todavía<br>está por venir.</h2>
+
+        <p>
+          Que nunca dejes de ser tú, de perseguir lo que te
+          hace feliz y de llenar nuestra historia de nuevos
+          recuerdos. ¡Feliz cumpleaños, hermano!
+        </p>
+
+        <button class="secondary" id="celebrate" type="button">
+          ✳ ¡Vamos a celebrarlo!
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <span>
+      <strong>28 vueltas al sol.</strong>
+      Toda una vida por delante.
+    </span>
+
+    <span>Hecho con amor · 2026 ♡</span>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
