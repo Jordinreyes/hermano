@@ -1,27 +1,27 @@
 
 const memories = [
   {
-    image: "pictures/foto_3.png",
+    image: "Pictures/foto_3.png",
     title: "Nuestros primeros recuerdos.",
     text: "Hay fotografías que guardan mucho más que una imagen: guardan risas, abrazos y una historia que siempre llevaremos con nosotros."
   },
   {
-    image: "pictures/foto_2.jpeg",
+    image: "Pictures/foto_2.jpeg",
     title: "Los días que nos hicieron reír.",
     text: "Esos momentos espontáneos que no se planean y terminan convirtiéndose en las anécdotas que contamos una y otra vez."
   },
   {
-    image: "pictures/foto_4.jpeg",
+    image: "Pictures/foto_4.jpeg",
     title: "La familia, nuestro lugar seguro.",
     text: "No importa cuánto tiempo pase ni a dónde nos lleve la vida: siempre tendremos una historia en común y un lugar al que volver."
   },
   {
-    image: "pictures/foto_1.png",
+    image: "Pictures/foto_1.png",
     title: "Pequeños instantes, grandes recuerdos.",
     text: "Cada instante a tu lado se convierte en un recuerdo especial. Gracias por tantas risas, momentos y por ser parte de mi vida. Pase lo que pase, siempre estaremos juntos. Te amo, gordo."
   },
   {
-    image: "pictures/foto_5.png",
+    image: "Pictures/foto_5.png",
     title: "Y todos los que aún nos quedan.",
     text: "Por muchas más aventuras, abrazos y recuerdos juntos. Lo mejor de todo es lo que aún nos queda por vivir Imagen creada con IA jaja."
   }
